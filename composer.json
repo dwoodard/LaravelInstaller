@@ -15,7 +15,7 @@
   "require": {},
   "autoload": {
     "psr-4": {
-      "dwoodard\\LaravelInstaller\\": "src/"
+      "Dwoodard\\LaravelInstaller\\": "src/"
     },
     "files": [
       "src/functions.php"
