@@ -1,6 +1,6 @@
 <?php
 
-namespace RachidLaasri\LaravelInstaller\Middleware;
+namespace Dwoodard\LaravelInstaller\Middleware;
 
 use Closure;
 use DB;
@@ -19,7 +19,7 @@ class canInstall
         if($this->alreadyInstalled()) {
             abort(404);
         }
-        
+
         return $next($request);
     }
 

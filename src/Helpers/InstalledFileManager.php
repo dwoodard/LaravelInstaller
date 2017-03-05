@@ -1,6 +1,6 @@
 <?php
 
-namespace RachidLaasri\LaravelInstaller\Helpers;
+namespace Dwoodard\LaravelInstaller\Helpers;
 
 
 class InstalledFileManager

@@ -1,6 +1,6 @@
 <?php
 
-namespace RachidLaasri\LaravelInstaller\Helpers;
+namespace Dwoodard\LaravelInstaller\Helpers;
 
 use Exception;
 use Illuminate\Database\SQLiteConnection;
@@ -70,7 +70,7 @@ class DatabaseManager
             'message' => $message
         );
     }
-    
+
         /**
      * check database type. If SQLite, then create the database file.
      */

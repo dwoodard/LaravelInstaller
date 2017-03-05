@@ -1,11 +1,11 @@
 <?php
 
-namespace RachidLaasri\LaravelInstaller\Controllers;
+namespace Dwoodard\LaravelInstaller\Controllers;
 
 use Illuminate\Routing\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Redirector;
-use RachidLaasri\LaravelInstaller\Helpers\EnvironmentManager;
+use Dwoodard\LaravelInstaller\Helpers\EnvironmentManager;
 
 class EnvironmentController extends Controller
 {

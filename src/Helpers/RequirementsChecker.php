@@ -1,6 +1,6 @@
 <?php
 
-namespace RachidLaasri\LaravelInstaller\Helpers;
+namespace Dwoodard\LaravelInstaller\Helpers;
 
 class RequirementsChecker
 {
@@ -39,7 +39,7 @@ class RequirementsChecker
                         if(function_exists('apache_get_modules'))
                         {
                             $results['requirements'][$type][$requirement] = true;
-                            
+
                             if(!in_array($requirement,apache_get_modules()))
                             {
                                 $results['requirements'][$type][$requirement] = false;
